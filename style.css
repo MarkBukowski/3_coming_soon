@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.bgImage {
+    background-image: url("./imgs/train.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.part1 {
+    width: 80%;
+    margin: 0 10%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px)
+}
+
+.col {
+    width: 500px;
+}
+
+.fiveG {
+    width: 100px;
+}
+
+.introText {
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+}
+
+.introText h1 {
+    margin: 0;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.introText p {
+    font-size: 0.35em;
+    margin-bottom: 10%;
+}
+
+.timeLeft {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 40px;
+}
+
+.timeLeft p {
+    margin: 0;
+}
+
+.timeLeft .timeColumns {
+    font-size: 0.3em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input {
+    margin: 15% 0 10% 0;
+    width: 450px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form input::placeholder {
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.subButton {
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #f71515;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    border: none;
+}
+
+.subButton:hover {
+    color: rgb(10, 10, 10);
+}
