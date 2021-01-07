@@ -4,6 +4,8 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
+/* Start of first section */
+
 .bgImage {
     background-image: url("./imgs/train.png");
     background-position: center;
@@ -104,3 +106,128 @@ body {
 .subButton:hover {
     color: rgb(10, 10, 10);
 }
+
+/* End of first section */
+
+.shadeAway {
+    background-image: url("./imgs/section2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part2 {
+    width: 80%;
+    margin: 0 10%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.col2 {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col2 h2 {
+    text-transform: uppercase;
+}
+
+.col2 p {
+    width: 400px;
+    color: rgb(90, 90, 90);
+}
+
+.aboutStartup p {
+    margin-top: 25px;
+}
+
+.percentage100 {
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.percentage1 {
+    height: 5px;
+    background-color: #f71515;
+    width: 95%;
+}
+
+.percentage2 {
+    height: 5px;
+    background-color: #f71515;
+    width: 87%;
+}
+
+.percentage3 {
+    height: 5px;
+    background-color: #f71515;
+    width: 90%;
+}
+
+.contactForm {
+    margin: 10% 0;
+}
+
+.contactForm input {
+    width: 45%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-color: rgba(165, 165, 165);
+    background-color: rgba(216, 24, 24, 0);
+    font-size: 14px;
+}
+
+.contactForm input:focus {
+    outline: none;
+    border-bottom-color: rgb(131, 131, 131);
+}
+
+.contactForm input::placeholder {
+    color: rgba(85, 82, 82, 0.8)
+}
+
+.nameEmail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.msgField {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.msgField button {
+    align-self: flex-end;
+    margin-top: 10%;
+}
+
+.msgField input {
+    width: 400px;
+}
+
+.submitMsg {
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #f71515;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+.col3 {
+    width: 100%;
+    height: 40vh;
+    background-color: #3341ff;
+}
+
+
