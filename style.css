@@ -138,10 +138,15 @@ body {
 .col2 p {
     width: 400px;
     color: rgb(90, 90, 90);
+    line-height: 2em;
 }
 
 .aboutStartup p {
-    margin-top: 25px;
+    margin-top: 25px 0;
+}
+
+.status p {
+    margin: 20px 0 5px 0;
 }
 
 .percentage100 {
@@ -168,8 +173,17 @@ body {
     width: 90%;
 }
 
+.anyQuestions a {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+}
+
+.anyQuestions a:hover {
+    color: rgb(0, 0, 0);
+}
+
 .contactForm {
-    margin: 10% 0;
+    margin-top: 10%;
 }
 
 .contactForm input {
@@ -189,6 +203,11 @@ body {
 
 .contactForm input::placeholder {
     color: rgba(85, 82, 82, 0.8)
+}
+
+.contactForm p {
+    padding-top: 35px;
+    margin: 0;
 }
 
 .nameEmail {
@@ -221,13 +240,90 @@ body {
     border: none;
 }
 
+.backTopPosition {
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+}
 
+.backToTop {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #f71515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backToTop img {
+    width: 20px;
+    align-self: center;
+}
+
+/* end of section 2 */
 
 
 .col3 {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     background-color: #3341ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 100px;
+    
+}
+
+.icons img {
+    height: 20px;
+    margin: 15px 20px 0 20px;
+}
+
+.footerHeading {
+    margin: 40px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.footerHeading img {
+    height: 80px;
+    margin: 0 10px 0 0;
+}
+
+.footerHeading h2 {
+    font-size: 40px;
 }
 
 
+.footerText {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.copyright {
+    margin-bottom: 10px;
+}
+
+.footerDescription {
+    width: 700px;
+    text-align: center;
+    margin: 0;
+    line-height: 2em;
+}
+
+.footerText a {
+    text-decoration: none;
+    color: white;
+}
+
+.footerText a:hover {
+    color: rgb(250, 148, 148);
+}
