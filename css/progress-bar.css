@@ -1,0 +1,47 @@
+.progress-bar {
+    display: inline-block;
+    width: 100%;
+}
+
+.progress-bar > .label {
+    display: inline-block;
+    float: left;
+}
+
+.progress-bar > .value {
+    display: inline-block;
+    float: right;
+}
+
+.progress-bar > .percentageMax {
+    display: inline-block;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(209, 209, 209);
+}
+
+.progress-bar > .percentageMax > .percentage-current {
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.percentageMax > .percentage-current > .percentage-animation {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #15a4f7;
+    animation-name: loading;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}

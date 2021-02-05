@@ -1,13 +1,17 @@
-body {
+body,
+body * {
     margin: 0;
     padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+    word-break: break-all;
 }
 
 /* Start of first section */
 
 .bgImage {
-    background-image: url("./imgs/train.png");
+    background-image: url("../imgs/train.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,67 +114,44 @@ body {
 /* End of first section */
 
 .shadeAway {
-    background-image: url("./imgs/section2.png");
+    background-image: url("../imgs/section2.png");
     background-position: center;
     background-repeat: no-repeat;
+    height: 120vh;
     background-size: cover;
 }
 
 .part2 {
     width: 80%;
     margin: 0 10%;
-    height: 70vh;
     display: flex;
     align-items: center;
 }
 
 .col2 {
-    height: 50vh;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .col2 h2 {
+    margin-top: 50px;
     text-transform: uppercase;
 }
 
 .col2 p {
-    width: 400px;
     color: rgb(90, 90, 90);
     line-height: 2em;
+    margin-top: 20px;
+    
 }
 
-.aboutStartup p {
-    margin-top: 25px 0;
+.aboutStartup {
+    width: 400px;
 }
 
-.status p {
-    margin: 20px 0 5px 0;
-}
-
-.percentage100 {
-    height: 5px;
-    width: 100%;
-    background-color: #fff;
-}
-
-.percentage1 {
-    height: 5px;
-    background-color: #f71515;
-    width: 95%;
-}
-
-.percentage2 {
-    height: 5px;
-    background-color: #f71515;
-    width: 87%;
-}
-
-.percentage3 {
-    height: 5px;
-    background-color: #f71515;
-    width: 90%;
+.anyQuestions {
+    width: 350px;
 }
 
 .anyQuestions a {
@@ -268,13 +249,11 @@ body {
 
 .col3 {
     width: 100%;
-    height: 50vh;
-    background-color: #3341ff;
+    background-color: #0616ff;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
-    padding-top: 100px;
     
 }
 
@@ -326,4 +305,21 @@ body {
 
 .footerText a:hover {
     color: rgb(250, 148, 148);
+}
+
+
+@media only screen and (max-width: 1000px ) {
+    .col2 {
+    flex-wrap: wrap;
+    }
+    
+}
+
+@media only screen and (max-width: 720px) {
+    .col {
+        width: 90%;
+    }
+    .form input {
+        width: 90%;
+    }
 }
