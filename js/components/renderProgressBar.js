@@ -17,7 +17,7 @@ function renderProgressBar(selector, data) {
                 </div>`;
     }
 
-    let DOM = document.querySelector(selector);
+    const DOM = document.querySelector(selector);
 
     DOM.innerHTML += HTML;
 }
