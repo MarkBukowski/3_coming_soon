@@ -1,5 +1,5 @@
 // clock
-import { clock } from './components/renderClock.js'
+import { clock } from './components/renderClock.js';
 
 // social icons
 import { socialsData } from './data/socialsData.js';
@@ -17,5 +17,5 @@ renderProgressBar('.aboutStartup', progressBarData);
 // render social icons function
 renderSocials('.col3 > .icons', socialsData);
 
-// run clock function
-clock('.timeLeft',);
+// render clock function
+clock('.timeLeft', '01-04 14:00:00');
