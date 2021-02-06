@@ -55,23 +55,6 @@ body * {
     margin-bottom: 10%;
 }
 
-.timeLeft {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    font-size: 40px;
-}
-
-.timeLeft p {
-    margin: 0;
-}
-
-.timeLeft .timeColumns {
-    font-size: 0.3em;
-    margin: 0;
-    text-transform: uppercase;
-}
-
 .form {
     display: flex;
     flex-direction: column;
@@ -308,18 +291,3 @@ body * {
 }
 
 
-@media only screen and (max-width: 1000px ) {
-    .col2 {
-    flex-wrap: wrap;
-    }
-    
-}
-
-@media only screen and (max-width: 720px) {
-    .col {
-        width: 90%;
-    }
-    .form input {
-        width: 90%;
-    }
-}
